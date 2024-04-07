@@ -31,7 +31,7 @@ Window系统推荐使用Docker Desktop，官方下载安装包安装。
 仅支持linux系统
 
 ```
-wget "https://ghproxy.com/https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/docker/install.sh" && chmod +x install.sh && ./install.sh
+wget "https://github-proxy.952712.xyz/https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/docker/install.sh" && chmod +x install.sh && ./install.sh
 ```
 
 ## 3. 方式二：手动Docker Compose
@@ -162,4 +162,4 @@ docker run --rm \
 
 apt-get 包源用的国内网易的
 
-如果下载`github`资源有问题，可以尝试添加或删除代理url`https://ghproxy.com/`
+如果下载`github`资源有问题，可以尝试添加或删除代理url`https://github-proxy.952712.xyz/`

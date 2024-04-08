@@ -99,7 +99,7 @@
 修改拉库命令为`ql repo https://github.com/RayWangQvQ/BiliBiliToolPro.git "bili_dev_task_" "" "" "develop"`
 
 ## 3. GitHub加速
-拉库时，如果服务器在国内，访问GitHub速度慢，可以在仓库地址前加上 `https://github-proxy.952712.xyz/` 进行加速, 如：`ql repo https://github-proxy.952712.xyz/https://github.com/RayWangQvQ/BiliBiliToolPro.git "bili_task_"`
+拉库时，如果服务器在国内，访问GitHub速度慢，可以在仓库地址前加上 `https://ghproxy.com/` 进行加速, 如：`ql repo https://ghproxy.com/https://github.com/RayWangQvQ/BiliBiliToolPro.git "bili_task_"`
 
 ## 4. 常见问题
 

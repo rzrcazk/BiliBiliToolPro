@@ -13,7 +13,7 @@ if [[ $dotnetVersion == 6.* ]]; then
 else
     echo "which dotnet: $(which dotnet)"
     echo "开始安装dotnet"
-    rayInstallShell="https://github-proxy.952712.xyz/https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/qinglong/ray-dotnet-install.sh"
+    rayInstallShell="https://ghproxy.com/https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/qinglong/ray-dotnet-install.sh"
     {
         echo "------尝试使用apk安装------"
         apk add dotnet6-sdk

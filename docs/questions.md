@@ -201,12 +201,12 @@ Pull App 可以指定是否保留自己已经修改的内容，分为下面两�
 
 macOS/Linux:
 ```
-curl -sSL https://github-proxy.952712.xyz/https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/qinglong/ray-dotnet-install.sh | bash /dev/stdin
+curl -sSL https://ghproxy.com/https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/qinglong/ray-dotnet-install.sh | bash /dev/stdin
 ```
 如果出现下载缓慢的情况，可以将上面指令改为：
 
 ```
-curl -sSL https://github-proxy.952712.xyz/https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/qinglong/ray-dotnet-install.sh | bash /dev/stdin --no-official
+curl -sSL https://ghproxy.com/https://raw.githubusercontent.com/RayWangQvQ/BiliBiliToolPro/main/qinglong/ray-dotnet-install.sh | bash /dev/stdin --no-official
 ```
 
 `--no-official`表示不会使用官方脚本去安装，而是通过手动下载二进制文件的形式来安装。
